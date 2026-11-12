@@ -1,0 +1,1283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#1a1a1a" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="format-detection" content="telephone=no" />
+  <title>Gold Tire 07 – Multiservicios | Cauchos, Alineación y Balanceo en San Diego, Carabobo</title>
+  <meta name="description" content="Gold Tire 07 Multiservicios: Venta de cauchos, alineación, balanceo y montura en Big Low, San Diego, Edo. Carabobo. Contáctanos al +58 424-496-1600." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <img src="images/logo.png" alt="Multiservicios Gold Tire 07, C.A." />
+        <div class="nav-logo-text">
+          <span class="brand-title">GOLD TIRE <span class="gold">07</span></span>
+          <span class="brand-sub">Multiservicios, C.A.</span>
+        </div>
+      </a>
+      <div class="nav-actions">
+        <button class="nav-cart-btn" id="openCartBtn" aria-label="Ver carrito de cotización">
+          <i class="fas fa-shopping-cart"></i>
+          <span class="cart-badge" id="navCartBadge">0</span>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Menú">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li class="nav-mobile-header">
+          <span>Menú de Navegación</span>
+          <button class="nav-close" id="navClose" aria-label="Cerrar">&times;</button>
+        </li>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#especificaciones">Especificaciones</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#marcas">Marcas</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><button class="nav-admin-link" id="navAdminBtn"><i class="fas fa-lock"></i> Acceso Admin</button></li>
+        <li class="nav-mobile-cta">
+          <a href="https://wa.me/584244961600" target="_blank" class="btn btn-gold btn-block">
+            <i class="fab fa-whatsapp"></i> WhatsApp Directo
+          </a>
+        </li>
+      </ul>
+      <div class="nav-backdrop" id="navBackdrop"></div>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <header class="hero" id="inicio">
+    <div class="hero-overlay"></div>
+    <div class="hero-particles" id="particles"></div>
+    <div class="hero-content" data-animate="fade-up">
+      <h1>GOLD TIRE <span class="gold">07</span></h1>
+      <p class="hero-subtitle">🔧 Multiservicios · Cauchos · Alineación · Balanceo · Montura</p>
+      <p class="hero-text">Tu taller de confianza en San Diego, Edo. Carabobo. Ofrecemos las mejores marcas de neumáticos con servicio profesional de montaje, alineación y balanceo.</p>
+      <div class="hero-buttons">
+        <a href="#productos" class="btn btn-gold">Ver Productos</a>
+        <a href="#contacto" class="btn btn-outline">Contáctanos</a>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span>Desplázate</span>
+      <i class="fas fa-chevron-down"></i>
+    </div>
+  </header>
+
+  <!-- ========== STATS BAR ========== -->
+  <section class="stats-bar">
+    <div class="container stats-grid">
+      <div class="stat-item" data-animate="fade-up">
+        <i class="fas fa-car"></i>
+        <span class="stat-number" data-count="5000">0</span>
+        <p>Clientes satisfechos</p>
+      </div>
+      <div class="stat-item" data-animate="fade-up" data-delay="100">
+        <i class="fas fa-cog"></i>
+        <span class="stat-number" data-count="150">0</span>
+        <p>Modelos disponibles</p>
+      </div>
+      <div class="stat-item" data-animate="fade-up" data-delay="200">
+        <i class="fas fa-trophy"></i>
+        <span class="stat-number" data-count="10">0</span>
+        <p>Años de experiencia</p>
+      </div>
+      <div class="stat-item" data-animate="fade-up" data-delay="300">
+        <i class="fas fa-star"></i>
+        <span class="stat-number" data-count="20">0</span>
+        <p>Marcas reconocidas</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PRODUCTOS ========== -->
+  <section id="productos" class="section">
+    <div class="container">
+      <div class="section-header" data-animate="fade-up">
+        <span class="section-tag">Catálogo</span>
+        <h2>Nuestros <span class="gold">Productos</span></h2>
+        <p>Venta de cauchos para todo tipo de vehículos y baterías Duncan oficiales con garantía. ¡Agrega tus productos al carrito y cotiza todo por WhatsApp!</p>
+      </div>
+
+      <!-- Filter tabs -->
+      <div class="filter-tabs" data-animate="fade-up">
+        <button class="filter-btn active" data-filter="all">Todos</button>
+        <button class="filter-btn" data-filter="sedan">Sedán</button>
+        <button class="filter-btn" data-filter="suv">SUV / Camioneta</button>
+        <button class="filter-btn" data-filter="deportivo">Deportivo</button>
+        <button class="filter-btn" data-filter="baterias"><i class="fas fa-car-battery"></i> Baterías Duncan</button>
+      </div>
+
+      <div class="products-grid" id="productsGrid">
+        <!-- Product 1 -->
+        <div class="product-card" data-category="sedan" data-animate="fade-up">
+          <div class="product-badge">Popular</div>
+          <div class="product-image">
+            <img src="images/product1.jpg" alt="Caucho para sedán 185/65R15" />
+          </div>
+          <div class="product-info">
+            <h3>Caucho Sedán 185/65R15</h3>
+            <p>Ideal para vehículos de pasajeros. Excelente agarre en pavimento seco y mojado, durabilidad superior.</p>
+            <div class="product-features">
+              <span><i class="fas fa-road"></i> Pavimento</span>
+              <span><i class="fas fa-tachometer-alt"></i> Rendimiento</span>
+            </div>
+            <div class="product-actions">
+              <button class="btn btn-gold btn-block add-to-cart-btn"
+                      data-id="caucho-sedan-185-65r15"
+                      data-name="Caucho Sedán 185/65R15"
+                      data-category="Sedán"
+                      data-image="images/product1.jpg">
+                <i class="fas fa-cart-plus"></i> Agregar al Carrito
+              </button>
+              <a href="https://wa.me/584244961600?text=Hola%20Gold%20Tire%2007%2C%20quisiera%20consultar%20disponibilidad%20y%20precio%20del%20Caucho%20Sed%C3%A1n%20185%2F65R15" target="_blank" class="btn-direct-wa">
+                <i class="fab fa-whatsapp"></i> Consultar directo
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card" data-category="suv" data-animate="fade-up" data-delay="100">
+          <div class="product-badge sale">Oferta</div>
+          <div class="product-image">
+            <img src="images/product2.jpg" alt="Caucho para SUV 235/70R16" />
+          </div>
+          <div class="product-info">
+            <h3>Caucho SUV 235/70R16</h3>
+            <p>Diseñado para camionetas y SUVs. Máxima tracción en todo terreno, resistencia contra impactos.</p>
+            <div class="product-features">
+              <span><i class="fas fa-mountain"></i> Todo terreno</span>
+              <span><i class="fas fa-shield-alt"></i> Durabilidad</span>
+            </div>
+            <div class="product-actions">
+              <button class="btn btn-gold btn-block add-to-cart-btn"
+                      data-id="caucho-suv-235-70r16"
+                      data-name="Caucho SUV 235/70R16"
+                      data-category="SUV"
+                      data-image="images/product2.jpg">
+                <i class="fas fa-cart-plus"></i> Agregar al Carrito
+              </button>
+              <a href="https://wa.me/584244961600?text=Hola%20Gold%20Tire%2007%2C%20quisiera%20consultar%20disponibilidad%20y%20precio%20del%20Caucho%20SUV%20235%2F70R16" target="_blank" class="btn-direct-wa">
+                <i class="fab fa-whatsapp"></i> Consultar directo
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card" data-category="suv" data-animate="fade-up" data-delay="200">
+          <div class="product-image">
+            <img src="images/bronco.jpg" alt="Caucho Off-Road 265/75R16 para camioneta" />
+          </div>
+          <div class="product-info">
+            <h3>Caucho Off-Road 265/75R16</h3>
+            <p>Para los más aventureros. Tacos reforzados para barro, arena y rocas con máxima durabilidad.</p>
+            <div class="product-features">
+              <span><i class="fas fa-mountain"></i> Off-Road</span>
+              <span><i class="fas fa-bolt"></i> Resistencia</span>
+            </div>
+            <div class="product-actions">
+              <button class="btn btn-gold btn-block add-to-cart-btn"
+                      data-id="caucho-offroad-265-75r16"
+                      data-name="Caucho Off-Road 265/75R16"
+                      data-category="Off-Road"
+                      data-image="images/bronco.jpg">
+                <i class="fas fa-cart-plus"></i> Agregar al Carrito
+              </button>
+              <a href="https://wa.me/584244961600?text=Hola%20Gold%20Tire%2007%2C%20quisiera%20consultar%20disponibilidad%20y%20precio%20del%20Caucho%20Off-Road%20265%2F75R16" target="_blank" class="btn-direct-wa">
+                <i class="fab fa-whatsapp"></i> Consultar directo
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card" data-category="deportivo" data-animate="fade-up" data-delay="300">
+          <div class="product-badge new">Nuevo</div>
+          <div class="product-image">
+            <img src="images/product4.jpg" alt="Caucho deportivo 225/45R17" />
+          </div>
+          <div class="product-info">
+            <h3>Caucho Deportivo 225/45R17</h3>
+            <p>Perfil bajo para máximo rendimiento en curvas. Diseñado para alta velocidad, estabilidad y precisión.</p>
+            <div class="product-features">
+              <span><i class="fas fa-flag-checkered"></i> Velocidad</span>
+              <span><i class="fas fa-tachometer-alt"></i> Precisión</span>
+            </div>
+            <div class="product-actions">
+              <button class="btn btn-gold btn-block add-to-cart-btn"
+                      data-id="caucho-deportivo-225-45r17"
+                      data-name="Caucho Deportivo 225/45R17"
+                      data-category="Deportivo"
+                      data-image="images/product4.jpg">
+                <i class="fas fa-cart-plus"></i> Agregar al Carrito
+              </button>
+              <a href="https://wa.me/584244961600?text=Hola%20Gold%20Tire%2007%2C%20quisiera%20consultar%20disponibilidad%20y%20precio%20del%20Caucho%20Deportivo%20225%2F45R17" target="_blank" class="btn-direct-wa">
+                <i class="fab fa-whatsapp"></i> Consultar directo
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 5 (Batería Duncan) -->
+        <div class="product-card product-featured" data-category="baterias" data-animate="fade-up" data-delay="100">
+          <div class="product-badge duncan-badge"><i class="fas fa-bolt"></i> Duncan Oficial</div>
+          <div class="product-image battery-image-wrapper">
+            <img src="images/bateria-duncan.png" alt="Batería Duncan 1150 Libre de Mantenimiento" />
+          </div>
+          <div class="product-info">
+            <h3>Batería Duncan 1150 (Sellada)</h3>
+            <p>Máxima potencia de arranque y tecnología de punta. Libre de mantenimiento. Para camionetas, SUVs y vehículos de alto consumo eléctrico.</p>
+            <div class="product-features">
+              <span><i class="fas fa-bolt gold"></i> 1150 Amperios</span>
+              <span><i class="fas fa-certificate gold"></i> Garantía Duncan</span>
+              <span><i class="fas fa-wrench gold"></i> Instalación gratis</span>
+            </div>
+            <div class="product-actions">
+              <button class="btn btn-gold btn-block add-to-cart-btn"
+                      data-id="bateria-duncan-1150"
+                      data-name="Batería Duncan 1150 (Sellada)"
+                      data-category="Batería"
+                      data-image="images/bateria-duncan.png">
+                <i class="fas fa-cart-plus"></i> Agregar al Carrito
+              </button>
+              <a href="https://wa.me/584244961600?text=Hola%20Gold%20Tire%2007%2C%20quisiera%20consultar%20disponibilidad%20y%20precio%20de%20la%20Bater%C3%ADa%20Duncan%201150" target="_blank" class="btn-direct-wa">
+                <i class="fab fa-whatsapp"></i> Consultar directo
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center" data-animate="fade-up">
+        <a href="https://www.instagram.com/gold_tire07/" target="_blank" class="btn btn-gold btn-lg">
+          <i class="fab fa-instagram"></i> Ver más en Instagram
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ANATOMÍA Y ESPECIFICACIONES INTERACTIVAS DEL CAUCHO ========== -->
+  <section id="especificaciones" class="section bg-dark tire-interactive-section">
+    <div class="tire-interactive-glow-bg"></div>
+    <div class="container">
+      <div class="section-header light" data-animate="fade-up">
+        <span class="section-tag"><i class="fas fa-microchip gold"></i> Tecnología & Rendimiento</span>
+        <h2>Anatomía & Especificaciones <span class="gold">del Caucho</span></h2>
+        <p>Explora la ingeniería de precisión detrás de un neumático de alto desempeño. Desplázate por la página o haz clic en los puntos interactivos para descubrir cada componente técnico y aprender a leer las medidas como un profesional.</p>
+      </div>
+
+      <!-- Interactive Mode Bar / Step Selector -->
+      <div class="tire-spec-nav" data-animate="fade-up">
+        <button class="tire-nav-pill active" data-spec="1" type="button">
+          <span class="pill-num">01</span>
+          <span class="pill-label">Banda de Rodamiento</span>
+        </button>
+        <button class="tire-nav-pill" data-spec="2" type="button">
+          <span class="pill-num">02</span>
+          <span class="pill-label">Flanco y Medidas</span>
+        </button>
+        <button class="tire-nav-pill" data-spec="3" type="button">
+          <span class="pill-num">03</span>
+          <span class="pill-label">Índice Carga & Vel.</span>
+        </button>
+        <button class="tire-nav-pill" data-spec="4" type="button">
+          <span class="pill-num">04</span>
+          <span class="pill-label">Hombro & Curvas</span>
+        </button>
+        <button class="tire-nav-pill" data-spec="5" type="button">
+          <span class="pill-num">05</span>
+          <span class="pill-label">Talón & Rin Tubeless</span>
+        </button>
+      </div>
+
+      <!-- Main Showcase Stage -->
+      <div class="tire-stage-wrapper" id="tireStage">
+        <!-- Interactive Tire Viewport -->
+        <div class="tire-visual-container" data-animate="fade-right">
+          <!-- Background Radar & Holographic Rings -->
+          <div class="tire-radar-ring ring-outer"></div>
+          <div class="tire-radar-ring ring-mid"></div>
+          <div class="tire-radar-ring ring-inner"></div>
+          <div class="tire-glow-core"></div>
+
+          <!-- Fixed-coordinate frame containing tire and hotspots -->
+          <div class="tire-target-frame" id="tireTargetFrame">
+            <!-- Rotating / Interactive Tire Element -->
+            <div class="tire-3d-wrapper" id="tire3dWrapper">
+              <img src="images/tire-showcase.jpg" alt="Neumático de Alto Rendimiento - Gold Tire 07" class="tire-main-img" id="tireMainImg" />
+              <div class="tire-scanner-line"></div>
+            </div>
+
+            <!-- Hotspot Pins placed directly on tire -->
+            <!-- Hotspot 1: Tread (Top / Band) -->
+            <div class="tire-hotspot active" data-spec="1" style="top: 17%; left: 48%;" title="Banda de Rodamiento">
+              <button class="hotspot-btn" type="button" aria-label="Banda de rodamiento">
+                <span class="hotspot-pulse"></span>
+                <span class="hotspot-icon">1</span>
+              </button>
+              <div class="hotspot-tooltip">Banda de Rodamiento</div>
+            </div>
+
+            <!-- Hotspot 2: Sidewall & Dimensions (Left mid) -->
+            <div class="tire-hotspot" data-spec="2" style="top: 48%; left: 21%;" title="Flanco y Medidas">
+              <button class="hotspot-btn" type="button" aria-label="Flanco y Medidas">
+                <span class="hotspot-pulse"></span>
+                <span class="hotspot-icon">2</span>
+              </button>
+              <div class="hotspot-tooltip">Medidas (225/45 R17)</div>
+            </div>
+
+            <!-- Hotspot 3: Load & Speed Index (Bottom left) -->
+            <div class="tire-hotspot" data-spec="3" style="top: 73%; left: 32%;" title="Índice de Carga y Velocidad">
+              <button class="hotspot-btn" type="button" aria-label="Índice de Carga y Velocidad">
+                <span class="hotspot-pulse"></span>
+                <span class="hotspot-icon">3</span>
+              </button>
+              <div class="hotspot-tooltip">Índice Carga 98W</div>
+            </div>
+
+            <!-- Hotspot 4: Shoulder (Top-Right edge) -->
+            <div class="tire-hotspot" data-spec="4" style="top: 25%; left: 78%;" title="Hombro de Estabilidad">
+              <button class="hotspot-btn" type="button" aria-label="Hombro de Estabilidad">
+                <span class="hotspot-pulse"></span>
+                <span class="hotspot-icon">4</span>
+              </button>
+              <div class="hotspot-tooltip">Hombro & Agarre</div>
+            </div>
+
+            <!-- Hotspot 5: Bead / Rim Interface (Center rim lip) -->
+            <div class="tire-hotspot" data-spec="5" style="top: 55%; left: 56%;" title="Talón y Aro de Sellado">
+              <button class="hotspot-btn" type="button" aria-label="Talón y Aro de Sellado">
+                <span class="hotspot-pulse"></span>
+                <span class="hotspot-icon">5</span>
+              </button>
+              <div class="hotspot-tooltip">Talón Tubeless</div>
+            </div>
+          </div>
+
+          <!-- Scroll Hint -->
+          <div class="tire-scroll-tip">
+            <i class="fas fa-arrows-alt-v gold"></i>
+            <span>Desplaza o haz clic en los números</span>
+          </div>
+        </div>
+
+        <!-- Details Card Panel (Changes smoothly on scroll or click) -->
+        <div class="tire-details-container" data-animate="fade-left">
+          
+          <!-- Spec 1: Banda de Rodamiento -->
+          <div class="spec-card active" data-spec="1" id="specCard1">
+            <div class="spec-card-badge"><i class="fas fa-shield-alt gold"></i> Componente 01 / 05</div>
+            <h3 class="spec-card-title">Banda de Rodamiento & Canales Hidro-Evacuadores</h3>
+            <p class="spec-card-desc">Es la única parte del vehículo en contacto directo con el asfalto. Su diseño con ranuras profundas evacúa cientos de litros de agua por segundo para prevenir el aquaplaning.</p>
+            <div class="spec-features-list">
+              <div class="spec-feat-item">
+                <i class="fas fa-water gold"></i>
+                <div>
+                  <strong>Canales Circunferenciales:</strong>
+                  <span>Evacuación instantánea de agua en lluvias torrenciales para evitar derrapes y pérdida de control.</span>
+                </div>
+              </div>
+              <div class="spec-feat-item">
+                <i class="fas fa-atom gold"></i>
+                <div>
+                  <strong>Compuesto de Sílice & Caucho Sintético:</strong>
+                  <span>Garantiza flexibilidad en frío y máxima adherencia térmica a alta temperatura sobre asfalto caliente.</span>
+                </div>
+              </div>
+              <div class="spec-feat-item">
+                <i class="fas fa-tachometer-alt gold"></i>
+                <div>
+                  <strong>Frenado de Precisión:</strong>
+                  <span>Reduce la distancia de frenado hasta un 15% comparado con cauchos con desgaste excesivo.</span>
+                </div>
+              </div>
+            </div>
+            <div class="spec-tip-box">
+              <i class="fas fa-lightbulb gold"></i>
+              <span><strong>Consejo Gold Tire 07:</strong> Reemplaza tu caucho si la profundidad de la banda es menor a 1.6 mm o si el testigo de desgaste queda al ras del dibujo.</span>
+            </div>
+          </div>
+
+          <!-- Spec 2: Flanco y Medidas -->
+          <div class="spec-card" data-spec="2" id="specCard2">
+            <div class="spec-card-badge"><i class="fas fa-ruler-combined gold"></i> Componente 02 / 05</div>
+            <h3 class="spec-card-title">Flanco: ¿Cómo Leer la Medida de tu Caucho?</h3>
+            <p class="spec-card-desc">El costado protege contra impactos y baches, además de exhibir la nomenclatura técnica estandarizada (ejemplo: <strong>225 / 45 R 17</strong>).</p>
+            
+            <div class="spec-anatomy-breakdown">
+              <div class="spec-measure-block">
+                <div class="measure-num gold">225</div>
+                <div class="measure-name">Ancho (mm)</div>
+                <div class="measure-info">Distancia de flanco a flanco en milímetros.</div>
+              </div>
+              <div class="spec-measure-block">
+                <div class="measure-num gold">45</div>
+                <div class="measure-name">Perfil (%)</div>
+                <div class="measure-info">Altura del caucho: 45% del ancho (101.2 mm).</div>
+              </div>
+              <div class="spec-measure-block">
+                <div class="measure-num gold">R</div>
+                <div class="measure-name">Construcción</div>
+                <div class="measure-info">Radial: capas de hilos de acero dispuestas a 90°.</div>
+              </div>
+              <div class="spec-measure-block">
+                <div class="measure-num gold">17</div>
+                <div class="measure-name">Rin (Pulgadas)</div>
+                <div class="measure-info">Diámetro interior del rin de la rueda.</div>
+              </div>
+            </div>
+
+            <div class="spec-tip-box">
+              <i class="fas fa-check-circle gold"></i>
+              <span><strong>Encuéntralo en tu carro:</strong> Esta medida está grabada en relieve en el borde exterior del caucho y en la calcomanía del marco de la puerta del conductor.</span>
+            </div>
+          </div>
+
+          <!-- Spec 3: Índice de Carga y Símbolo de Velocidad -->
+          <div class="spec-card" data-spec="3" id="specCard3">
+            <div class="spec-card-badge"><i class="fas fa-weight-hanging gold"></i> Componente 03 / 05</div>
+            <h3 class="spec-card-title">Índice de Carga & Rango de Velocidad</h3>
+            <p class="spec-card-desc">Ubicado justo después de la medida (ejemplo: <strong>98 W</strong>). Define la resistencia estructural máxima y el límite de velocidad con total seguridad.</p>
+            
+            <div class="spec-features-list">
+              <div class="spec-feat-item">
+                <i class="fas fa-truck-loading gold"></i>
+                <div>
+                  <strong>Índice "98" (Capacidad de Carga):</strong>
+                  <span>Soporta hasta <strong>750 kg</strong> por neumático (hasta 3.000 kg distribuidos en las 4 ruedas del vehículo).</span>
+                </div>
+              </div>
+              <div class="spec-feat-item">
+                <i class="fas fa-bolt gold"></i>
+                <div>
+                  <strong>Símbolo "W" (Velocidad Máxima):</strong>
+                  <span>Homologado para velocidades sostenidas de hasta <strong>270 km/h</strong> sin deformación de la carcasa interna.</span>
+                </div>
+              </div>
+              <div class="spec-feat-item">
+                <i class="fas fa-stamp gold"></i>
+                <div>
+                  <strong>Normas DOT & UTQG:</strong>
+                  <span>Incluye índice de tracción (A, AA), resistencia a temperatura (A, B) y Treadwear (durabilidad de vida útil).</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="spec-tip-box">
+              <i class="fas fa-exclamation-triangle gold"></i>
+              <span><strong>Seguridad Vital:</strong> Nunca instales un caucho con índice de carga o velocidad inferior al especificado de fábrica por el manual de tu carro.</span>
+            </div>
+          </div>
+
+          <!-- Spec 4: Hombro & Costillas de Estabilidad -->
+          <div class="spec-card" data-spec="4" id="specCard4">
+            <div class="spec-card-badge"><i class="fas fa-route gold"></i> Componente 04 / 05</div>
+            <h3 class="spec-card-title">Hombro & Bloques de Estabilidad Lateral</h3>
+            <p class="spec-card-desc">La zona de transición entre la banda de rodamiento y el flanco. Soporta las fuerzas G centrífugas en curvas pronunciadas y cambios rápidos de trayectoria.</p>
+            
+            <div class="spec-features-list">
+              <div class="spec-feat-item">
+                <i class="fas fa-arrows-alt-h gold"></i>
+                <div>
+                  <strong>Bloques Rígidos Exteriores:</strong>
+                  <span>Previenen la torsión excesiva de la goma y mantienen la pisada plana en el asfalto durante el giro.</span>
+                </div>
+              </div>
+              <div class="spec-feat-item">
+                <i class="fas fa-volume-mute gold"></i>
+                <div>
+                  <strong>Geometría Acústica Anti-Ruido:</strong>
+                  <span>Ranuras calculadas para dispersar el sonido del aire y la rodadura, brindando un viaje silencioso y confortable.</span>
+                </div>
+              </div>
+              <div class="spec-feat-item">
+                <i class="fas fa-crosshairs gold"></i>
+                <div>
+                  <strong>Protección contra Desgaste Prematuro:</strong>
+                  <span>Nuestra alineación computarizada en Big Low San Diego asegura un desgaste uniforme y máxima vida útil.</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="spec-tip-box">
+              <i class="fas fa-wrench gold"></i>
+              <span><strong>¿Se desgastan más por dentro o por fuera?</strong> Es señal inequívoca de desalineación o camber incorrecto. ¡Tráelo a Gold Tire 07 para alineación 3D!</span>
+            </div>
+          </div>
+
+          <!-- Spec 5: Talón & Sellado Tubeless -->
+          <div class="spec-card" data-spec="5" id="specCard5">
+            <div class="spec-card-badge"><i class="fas fa-circle-notch gold"></i> Componente 05 / 05</div>
+            <h3 class="spec-card-title">Talón de Sellado & Aro de Acero Tubeless</h3>
+            <p class="spec-card-desc">El anillo de fijación que encaja herméticamente en la pestaña de la llanta o rin. Permite que el sistema funcione sin cámara de aire (Tubeless).</p>
+            
+            <div class="spec-features-list">
+              <div class="spec-feat-item">
+                <i class="fas fa-link gold"></i>
+                <div>
+                  <strong>Aro de Acero de Alta Tensión:</strong>
+                  <span>Estructura trenzada de acero forjado embebida en goma dura que retiene la presión de inflado (30 a 45 PSI).</span>
+                </div>
+              </div>
+              <div class="spec-feat-item">
+                <i class="fas fa-lock gold"></i>
+                <div>
+                  <strong>Hermeticidad Absoluta:</strong>
+                  <span>Previene escapes de aire incluso al absorber los baches y desniveles del asfalto.</span>
+                </div>
+              </div>
+              <div class="spec-feat-item">
+                <i class="fas fa-sync-alt gold"></i>
+                <div>
+                  <strong>Transmisión Inmediata de Potencia:</strong>
+                  <span>Transmite la fuerza del motor y la potencia de frenado sin que el caucho resbale sobre la llanta.</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="spec-tip-box">
+              <i class="fas fa-tools gold"></i>
+              <span><strong>Montura de Precisión:</strong> En Gold Tire 07 contamos con brazos robóticos desmontadores que no rayan el rin ni dañan el talón hermético.</span>
+            </div>
+          </div>
+
+          <!-- Navigation buttons for spec cards -->
+          <div class="spec-card-actions">
+            <div class="spec-dots" id="specDots">
+              <span class="dot active" data-spec="1" role="button" aria-label="Ir al paso 1"></span>
+              <span class="dot" data-spec="2" role="button" aria-label="Ir al paso 2"></span>
+              <span class="dot" data-spec="3" role="button" aria-label="Ir al paso 3"></span>
+              <span class="dot" data-spec="4" role="button" aria-label="Ir al paso 4"></span>
+              <span class="dot" data-spec="5" role="button" aria-label="Ir al paso 5"></span>
+            </div>
+            <div class="spec-nav-btns-group">
+              <button class="btn btn-outline btn-sm" id="prevSpecBtn" type="button" aria-label="Anterior especificación">
+                <i class="fas fa-chevron-left"></i> Anterior
+              </button>
+              <button class="btn btn-gold btn-sm" id="nextSpecBtn" type="button" aria-label="Siguiente especificación">
+                Siguiente <i class="fas fa-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- INTERACTIVE CALCULATOR / DECODER WIDGET -->
+      <div class="tire-calculator-box" data-animate="fade-up">
+        <div class="tire-calc-header">
+          <div class="calc-icon-title">
+            <i class="fas fa-calculator gold"></i>
+            <div>
+              <h3>Decodificador & Cotizador de Medidas</h3>
+              <p>Selecciona la medida de tu caucho y calcula sus especificaciones al instante:</p>
+            </div>
+          </div>
+          <span class="calc-badge">Herramienta Interactiva</span>
+        </div>
+
+        <div class="tire-calc-grid">
+          <!-- Selectors -->
+          <div class="calc-selectors">
+            <div class="calc-field">
+              <label for="calcWidth">Ancho de Sección (mm):</label>
+              <select id="calcWidth" class="calc-select">
+                <option value="165">165 mm</option>
+                <option value="175">175 mm</option>
+                <option value="185">185 mm</option>
+                <option value="195">195 mm</option>
+                <option value="205" selected>205 mm</option>
+                <option value="215">215 mm</option>
+                <option value="225">225 mm</option>
+                <option value="235">235 mm</option>
+                <option value="245">245 mm</option>
+                <option value="255">255 mm</option>
+                <option value="265">265 mm</option>
+                <option value="275">275 mm</option>
+                <option value="285">285 mm</option>
+                <option value="315">315 mm</option>
+              </select>
+            </div>
+
+            <div class="calc-field">
+              <label for="calcProfile">Perfil o Serie (%):</label>
+              <select id="calcProfile" class="calc-select">
+                <option value="35">35 %</option>
+                <option value="40">40 %</option>
+                <option value="45">45 %</option>
+                <option value="50">50 %</option>
+                <option value="55" selected>55 %</option>
+                <option value="60">60 %</option>
+                <option value="65">65 %</option>
+                <option value="70">70 %</option>
+                <option value="75">75 %</option>
+                <option value="80">80 %</option>
+              </select>
+            </div>
+
+            <div class="calc-field">
+              <label for="calcRim">Diámetro Rin (Pulgadas):</label>
+              <select id="calcRim" class="calc-select">
+                <option value="13">R13"</option>
+                <option value="14">R14"</option>
+                <option value="15">R15"</option>
+                <option value="16" selected>R16"</option>
+                <option value="17">R17"</option>
+                <option value="18">R18"</option>
+                <option value="19">R19"</option>
+                <option value="20">R20"</option>
+                <option value="22">R22"</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Dynamic Output Results -->
+          <div class="calc-results">
+            <div class="calc-result-tag">Medida seleccionada: <strong id="calcFullMeasure" class="gold">205/55 R16</strong></div>
+            <div class="calc-metrics-row">
+              <div class="metric-item">
+                <span class="metric-label">Altura del Flanco:</span>
+                <span class="metric-val" id="calcSideHeight">112.8 mm</span>
+              </div>
+              <div class="metric-item">
+                <span class="metric-label">Diámetro Total:</span>
+                <span class="metric-val" id="calcTotalDiameter">631.9 mm (24.9")</span>
+              </div>
+              <div class="metric-item">
+                <span class="metric-label">Vehículo Sugerido:</span>
+                <span class="metric-val" id="calcVehicleType">Sedán Compacto / Mediano</span>
+              </div>
+            </div>
+            
+            <a href="https://wa.me/584244961600?text=Hola%20Gold%20Tire%2007%2C%20quisiera%20consultar%20precio%20y%20disponibilidad%20de%20cauchos%20en%20medida%20205%2F55%20R16"
+               id="calcWhatsAppBtn" target="_blank" class="btn btn-gold btn-block calc-cta-btn">
+              <i class="fab fa-whatsapp"></i> Cotizar <span id="calcCtaMeasure">205/55 R16</span> por WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== PARALLAX BANNER ========== -->
+  <section class="parallax-banner">
+    <div class="parallax-overlay"></div>
+    <div class="container parallax-content" data-animate="fade-up">
+      <h2>¿Necesitas cauchos nuevos, alineación o balanceo?</h2>
+      <p>Visítanos en Big Low, San Diego, Edo. Carabobo (al lado de IMGEVE) o escríbenos por WhatsApp.</p>
+      <a href="https://wa.me/584244961600" target="_blank" class="btn btn-gold btn-lg">
+        <i class="fab fa-whatsapp"></i> Escríbenos por WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <!-- ========== SERVICIOS ========== -->
+  <section id="servicios" class="section bg-dark">
+    <div class="container">
+      <div class="section-header light" data-animate="fade-up">
+        <span class="section-tag">Multiservicios</span>
+        <h2>Nuestros <span class="gold">Servicios</span></h2>
+        <p>Ofrecemos atención integral para tu vehículo en San Diego, Edo. Carabobo.</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card" data-animate="fade-up">
+          <div class="service-icon"><i class="fas fa-tire"></i></div>
+          <h3>Venta de Cauchos</h3>
+          <p>Amplio inventario de neumáticos nuevos de las mejores marcas nacionales e importadas para todo tipo de vehículo.</p>
+        </div>
+        <div class="service-card" data-animate="fade-up" data-delay="100">
+          <div class="service-icon"><i class="fas fa-crosshairs"></i></div>
+          <h3>Alineación</h3>
+          <p>Servicio de alineación computarizada para garantizar el desgaste parejo y la estabilidad de tus neumáticos.</p>
+        </div>
+        <div class="service-card" data-animate="fade-up" data-delay="200">
+          <div class="service-icon"><i class="fas fa-sync-alt"></i></div>
+          <h3>Balanceo</h3>
+          <p>Balanceo electrónico de precisión para eliminar vibraciones y prolongar la vida útil de tus cauchos.</p>
+        </div>
+        <div class="service-card" data-animate="fade-up" data-delay="300">
+          <div class="service-icon"><i class="fas fa-wrench"></i></div>
+          <h3>Montura</h3>
+          <p>Instalación profesional de tus cauchos con equipos de última generación. Servicio rápido y garantizado.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== NOSOTROS ========== -->
+  <section id="nosotros" class="section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image" data-animate="fade-right">
+          <img src="images/interior.jpg" alt="Interior de Gold Tire 07 – Amplio inventario de cauchos" />
+          <div class="about-image-badge">
+            <span class="big-number">10+</span>
+            <span>Años de<br />experiencia</span>
+          </div>
+        </div>
+        <div class="about-content" data-animate="fade-left">
+          <span class="section-tag">Sobre nosotros</span>
+          <h2>¿Por qué elegir <span class="gold">Gold Tire 07</span>?</h2>
+          <p>Somos un multiservicios ubicado en Big Low, San Diego, Edo. Carabobo (al lado de IMGEVE), dedicados a la venta de cauchos y servicios de alineación, balanceo y montura. Nos destacamos por ofrecer productos de calidad a precios accesibles, con una atención al cliente excepcional.</p>
+          <ul class="about-list">
+            <li><i class="fas fa-check-circle"></i> Productos 100% originales y garantizados</li>
+            <li><i class="fas fa-check-circle"></i> Asesoría personalizada para tu vehículo</li>
+            <li><i class="fas fa-check-circle"></i> Servicio de alineación y balanceo profesional</li>
+            <li><i class="fas fa-check-circle"></i> Montura con equipos de última generación</li>
+            <li><i class="fas fa-check-circle"></i> Variedad de marcas y medidas</li>
+            <li><i class="fas fa-check-circle"></i> Ubicados en San Diego, Edo. Carabobo</li>
+          </ul>
+          <a href="https://www.instagram.com/gold_tire07/" target="_blank" class="btn btn-gold">
+            <i class="fab fa-instagram"></i> Síguenos en Instagram
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== MARCAS ========== -->
+  <section id="marcas" class="section bg-light">
+    <div class="container">
+      <div class="section-header" data-animate="fade-up">
+        <span class="section-tag">Calidad garantizada</span>
+        <h2>Marcas que <span class="gold">trabajamos</span></h2>
+      </div>
+      <div class="brands-marquee" data-animate="fade-up">
+        <div class="brands-track">
+          <span class="brand-name">Duncan</span>
+          <span class="brand-name">Pirelli</span>
+          <span class="brand-name">Michelin</span>
+          <span class="brand-name">Goodyear</span>
+          <span class="brand-name">Continental</span>
+          <span class="brand-name">Bridgestone</span>
+          <span class="brand-name">Firestone</span>
+          <span class="brand-name">Hankook</span>
+          <span class="brand-name">Kumho</span>
+          <span class="brand-name">Dunlop</span>
+          <span class="brand-name">Yokohama</span>
+          <span class="brand-name">Renlander</span>
+          <span class="brand-name">Federal</span>
+          <!-- Duplicated for seamless loop -->
+          <span class="brand-name">Duncan</span>
+          <span class="brand-name">Pirelli</span>
+          <span class="brand-name">Michelin</span>
+          <span class="brand-name">Goodyear</span>
+          <span class="brand-name">Continental</span>
+          <span class="brand-name">Bridgestone</span>
+          <span class="brand-name">Firestone</span>
+          <span class="brand-name">Hankook</span>
+          <span class="brand-name">Kumho</span>
+          <span class="brand-name">Dunlop</span>
+          <span class="brand-name">Yokohama</span>
+          <span class="brand-name">Renlander</span>
+          <span class="brand-name">Federal</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== GALERÍA ========== -->
+  <section id="galeria" class="section bg-light">
+    <div class="container">
+      <div class="section-header" data-animate="fade-up">
+        <span class="section-tag">Nuestro local</span>
+        <h2>Conoce <span class="gold">Gold Tire 07</span></h2>
+        <p>Visítanos en Big Low, San Diego, Edo. Carabobo (al lado de IMGEVE).</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item gallery-large" data-animate="fade-up">
+          <img src="images/fachada.jpg" alt="Fachada de Multiservicios Gold Tire 07" />
+          <div class="gallery-caption">Nuestra fachada – Multiservicios Gold Tire 07, C.A.</div>
+        </div>
+        <div class="gallery-item" data-animate="fade-up" data-delay="100">
+          <img src="images/interior.jpg" alt="Interior del local con amplio inventario" />
+          <div class="gallery-caption">Amplio inventario de cauchos para todas las marcas</div>
+        </div>
+        <div class="gallery-item" data-animate="fade-up" data-delay="200">
+          <img src="images/bronco.jpg" alt="Ford Bronco con cauchos off-road" />
+          <div class="gallery-caption">Trabajos realizados – Cauchos off-road</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TESTIMONIOS ========== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header" data-animate="fade-up">
+        <span class="section-tag">Opiniones</span>
+        <h2>Lo que dicen nuestros <span class="gold">clientes</span></h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card" data-animate="fade-up">
+          <div class="stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p>"Excelente atención y los cauchos de muy buena calidad. Los recomiendo al 100%."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar"><i class="fas fa-user"></i></div>
+            <div>
+              <strong>Carlos M.</strong>
+              <span>Toyota Corolla</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card" data-animate="fade-up" data-delay="100">
+          <div class="stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p>"Muy buenos precios comparado con la competencia. El envío fue rápido y sin problemas."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar"><i class="fas fa-user"></i></div>
+            <div>
+              <strong>María G.</strong>
+              <span>Ford Explorer</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card" data-animate="fade-up" data-delay="200">
+          <div class="stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+          </div>
+          <p>"Me asesoraron perfectamente para elegir los cauchos ideales para mi camioneta. Gran servicio."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar"><i class="fas fa-user"></i></div>
+            <div>
+              <strong>José R.</strong>
+              <span>Chevrolet Tahoe</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACTO ========== -->
+  <section id="contacto" class="section bg-dark">
+    <div class="container">
+      <div class="section-header light" data-animate="fade-up">
+        <span class="section-tag">Escríbenos</span>
+        <h2>Contacta con <span class="gold">Gold Tire 07</span></h2>
+        <p>¿Tienes preguntas? ¡Estamos aquí para ayudarte!</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info" data-animate="fade-right">
+          <div class="contact-item">
+            <i class="fab fa-instagram"></i>
+            <div>
+              <strong>Instagram</strong>
+              <a href="https://www.instagram.com/gold_tire07/" target="_blank">@gold_tire07</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-whatsapp"></i>
+            <div>
+              <strong>WhatsApp</strong>
+              <a href="https://wa.me/584244961600" target="_blank">+58 424-496-1600</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone-alt"></i>
+            <div>
+              <strong>Teléfono Tienda</strong>
+              <a href="tel:04128500631">(0412) 850.06.31</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-id-card"></i>
+            <div>
+              <strong>Razón Social & RIF</strong>
+              <p>Multiservicios Gold Tire 07, C.A.<br /><strong>RIF:</strong> J-40545637-0</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <strong>Ubicación</strong>
+              <p>Big Low – San Diego, Edo. Carabobo<br />(Al lado de IMGEVE)</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-clock"></i>
+            <div>
+              <strong>Horario</strong>
+              <p>Lun - Sáb: 8:00 AM - 5:00 PM</p>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" data-animate="fade-left">
+          <div class="form-row">
+            <div class="form-group">
+              <input type="text" placeholder="Tu nombre" required />
+            </div>
+            <div class="form-group">
+              <input type="tel" placeholder="Teléfono" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Correo electrónico" required />
+          </div>
+          <div class="form-group">
+            <select>
+              <option value="">¿Qué servicio necesitas?</option>
+              <option>Compra de Cauchos</option>
+              <option>Alineación</option>
+              <option>Balanceo</option>
+              <option>Montura</option>
+              <option>Alineación + Balanceo</option>
+              <option>Otro</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <textarea rows="4" placeholder="Cuéntanos qué necesitas..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-gold btn-block">
+            <i class="fas fa-paper-plane"></i> Enviar mensaje
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FLOATING BUTTONS ========== -->
+  <button class="floating-cart-btn" id="floatingCartBtn" title="Ver carrito de cotización" aria-label="Ver carrito de cotización">
+    <div class="cart-icon-wrapper">
+      <i class="fas fa-shopping-cart"></i>
+      <span class="cart-badge" id="floatingCartBadge">0</span>
+    </div>
+    <span class="floating-cart-text">Cotizar</span>
+  </button>
+
+  <a href="https://wa.me/584244961600" target="_blank" class="whatsapp-float" title="Escríbenos por WhatsApp" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- ========== TOAST NOTIFICATION ========== -->
+  <div class="cart-toast" id="cartToast" role="alert">
+    <i class="fas fa-check-circle"></i>
+    <span id="cartToastText">¡Producto agregado al carrito!</span>
+  </div>
+
+  <!-- ========== CART DRAWER MODAL ========== -->
+  <div class="cart-drawer-backdrop" id="cartDrawerBackdrop"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Carrito de Cotización">
+    <div class="cart-drawer-header">
+      <div class="cart-drawer-title">
+        <i class="fas fa-shopping-cart gold"></i>
+        <h3>Tu Carrito de Cotización</h3>
+      </div>
+      <button class="cart-drawer-close" id="closeCartDrawerBtn" aria-label="Cerrar">&times;</button>
+    </div>
+
+    <div class="cart-drawer-body" id="cartDrawerBody">
+      <!-- Dynamic list populated by script.js -->
+    </div>
+
+    <div class="cart-drawer-footer" id="cartDrawerFooter">
+      <div class="cart-summary-row">
+        <span>Total productos:</span>
+        <strong id="cartSummaryCount">0 unidades</strong>
+      </div>
+      <p class="cart-info-note">
+        <i class="fab fa-whatsapp"></i> Envía tu lista por WhatsApp y nuestro equipo de <strong>Gold Tire 07</strong> te responderá al instante con precios y disponibilidad.
+      </p>
+      <button class="btn btn-whatsapp-order btn-block" id="sendWhatsAppOrderBtn">
+        <i class="fab fa-whatsapp"></i> Solicitar Información por WhatsApp
+      </button>
+      <button class="btn-clear-cart" id="clearCartBtn">
+        <i class="fas fa-trash-alt"></i> Vaciar lista
+      </button>
+    </div>
+  </aside>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <img src="images/logo.png" alt="Gold Tire 07" class="footer-logo" />
+          <p>Multiservicios: Cauchos, Alineación, Balanceo y Montura en Big Low, San Diego, Edo. Carabobo.</p>
+          <div class="social-links">
+            <a href="https://www.instagram.com/gold_tire07/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/584244961600" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Enlaces rápidos</h4>
+          <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#especificaciones">Especificaciones</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><button class="footer-admin-link" id="footerAdminBtn"><i class="fas fa-lock"></i> Acceso Admin</button></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Categorías</h4>
+          <ul>
+            <li><a href="#productos">Cauchos Sedán</a></li>
+            <li><a href="#productos">Cauchos SUV / Camioneta</a></li>
+            <li><a href="#productos">Cauchos Deportivos</a></li>
+            <li><a href="#productos">Cauchos Off-Road</a></li>
+            <li><a href="#productos">Baterías Duncan Oficial</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contáctanos</h4>
+          <ul>
+            <li><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/gold_tire07/" target="_blank">@gold_tire07</a></li>
+            <li><i class="fab fa-whatsapp"></i> <a href="https://wa.me/584244961600" target="_blank">+58 424-496-1600</a></li>
+            <li><i class="fas fa-phone-alt"></i> <a href="tel:04128500631">(0412) 850.06.31</a></li>
+            <li><i class="fas fa-map-marker-alt"></i> Big Low – San Diego, Edo. Carabobo (Al lado de IMGEVE)</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Multiservicios Gold Tire 07, C.A. &middot; RIF: J-40545637-0. Todos los derechos reservados.</p>
+        <button class="admin-login-trigger" id="openAdminLoginBtn">
+          <i class="fas fa-lock"></i> Acceso Admin
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== MODAL 1: ACCESO ADMIN CON CLAVE ========== -->
+  <div class="admin-modal-backdrop" id="adminAuthBackdrop"></div>
+  <div class="admin-modal admin-auth-modal" id="adminAuthModal" role="dialog" aria-modal="true" aria-labelledby="authTitle">
+    <div class="admin-modal-header">
+      <h3 id="authTitle"><i class="fas fa-shield-alt gold"></i> Acceso Administrador</h3>
+      <button class="admin-modal-close" id="closeAdminAuthBtn" aria-label="Cerrar">&times;</button>
+    </div>
+    <form id="adminAuthForm" class="admin-auth-form">
+      <p class="admin-auth-desc">Ingresa la clave de administración para editar el catálogo y ver el resumen de pedidos:</p>
+      <div class="admin-input-group">
+        <label for="adminPasswordInput">Contraseña:</label>
+        <div class="password-wrapper">
+          <input type="password" id="adminPasswordInput" placeholder="Ingresa tu contraseña" required autocomplete="current-password" />
+          <button type="button" class="btn-toggle-pwd" id="toggleAdminPwdBtn" aria-label="Mostrar u ocultar contraseña">
+            <i class="fas fa-eye" id="pwdEyeIcon"></i>
+          </button>
+        </div>
+        <span class="admin-auth-hint"><i class="fas fa-info-circle"></i> Clave por defecto: <strong>gold07</strong></span>
+        <div class="admin-auth-error" id="adminAuthError">Contraseña incorrecta. Inténtalo de nuevo.</div>
+      </div>
+      <div class="admin-modal-actions">
+        <button type="button" class="btn btn-outline" id="cancelAdminAuthBtn">Cancelar</button>
+        <button type="submit" class="btn btn-gold"><i class="fas fa-key"></i> Ingresar</button>
+      </div>
+    </form>
+  </div>
+
+  <!-- ========== MODAL 2: DASHBOARD ADMIN ========== -->
+  <div class="admin-modal-backdrop" id="adminDashboardBackdrop"></div>
+  <div class="admin-modal admin-dashboard-modal" id="adminDashboardModal" role="dialog" aria-modal="true">
+    <div class="admin-modal-header">
+      <div class="admin-header-title">
+        <i class="fas fa-cogs gold"></i>
+        <h3>Panel Administrador – Gold Tire 07</h3>
+      </div>
+      <div class="admin-header-actions">
+        <button class="btn btn-sm btn-outline" id="adminLogoutBtn"><i class="fas fa-sign-out-alt"></i> Salir</button>
+        <button class="admin-modal-close" id="closeAdminDashboardBtn" aria-label="Cerrar">&times;</button>
+      </div>
+    </div>
+
+    <!-- Navigation Tabs inside Dashboard -->
+    <div class="admin-tabs">
+      <button class="admin-tab-btn active" data-tab="tab-analytics">
+        <i class="fas fa-chart-line"></i> Productos Más Pedidos
+      </button>
+      <button class="admin-tab-btn" data-tab="tab-inventory">
+        <i class="fas fa-boxes"></i> Gestionar Catálogo (<span id="adminProductCount">0</span>)
+      </button>
+      <button class="admin-tab-btn" data-tab="tab-settings">
+        <i class="fas fa-lock"></i> Seguridad
+      </button>
+    </div>
+
+    <div class="admin-modal-body">
+      <!-- TAB 1: ANALYTICS -->
+      <div class="admin-tab-content active" id="tab-analytics">
+        <div class="admin-kpi-grid">
+          <div class="admin-kpi-card">
+            <span class="kpi-label">Total Cotizaciones</span>
+            <strong class="kpi-value" id="kpiTotalOrders">0</strong>
+            <span class="kpi-sub">Enviadas a WhatsApp</span>
+          </div>
+          <div class="admin-kpi-card highlight">
+            <span class="kpi-label">Producto Estrella (Más Pedido)</span>
+            <strong class="kpi-value-text" id="kpiTopProduct">-</strong>
+            <span class="kpi-sub" id="kpiTopCount">0 pedidos</span>
+          </div>
+          <div class="admin-kpi-card">
+            <span class="kpi-label">Productos Activos</span>
+            <strong class="kpi-value" id="kpiTotalProducts">0</strong>
+            <span class="kpi-sub">En catálogo</span>
+          </div>
+        </div>
+
+        <div class="admin-section-header">
+          <h4><i class="fas fa-trophy gold"></i> Ranking de Productos Más Solicitados</h4>
+          <button class="btn btn-sm btn-outline" id="resetStatsBtn" title="Reiniciar estadísticas">
+            <i class="fas fa-redo-alt"></i> Reiniciar Conteo
+          </button>
+        </div>
+
+        <div class="admin-table-wrapper" id="adminStatsTableWrapper">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+
+      <!-- TAB 2: INVENTORY (AGREGAR / EDITAR) -->
+      <div class="admin-tab-content" id="tab-inventory">
+        <div class="admin-inventory-toolbar">
+          <div class="admin-search-wrapper">
+            <i class="fas fa-search"></i>
+            <input type="text" id="adminProductSearch" placeholder="Buscar producto por nombre..." />
+          </div>
+          <button class="btn btn-gold" id="btnOpenNewProductModal">
+            <i class="fas fa-plus"></i> Agregar Nuevo Producto
+          </button>
+        </div>
+
+        <div class="admin-products-list" id="adminProductsList">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+
+      <!-- TAB 3: SETTINGS -->
+      <div class="admin-tab-content" id="tab-settings">
+        <div class="admin-settings-card">
+          <h4><i class="fas fa-key gold"></i> Cambiar Contraseña de Administrador</h4>
+          <p class="settings-desc">Modifica la clave de acceso al panel para mantener seguro tu catálogo.</p>
+          <form id="changePasswordForm">
+            <div class="admin-form-group">
+              <label for="newAdminPassword">Nueva Contraseña:</label>
+              <input type="password" id="newAdminPassword" placeholder="Mínimo 4 caracteres" required />
+            </div>
+            <div class="admin-form-group">
+              <label for="confirmAdminPassword">Confirmar Nueva Contraseña:</label>
+              <input type="password" id="confirmAdminPassword" placeholder="Repite la nueva contraseña" required />
+            </div>
+            <div class="settings-msg" id="changePasswordMsg"></div>
+            <button type="submit" class="btn btn-gold">
+              <i class="fas fa-save"></i> Guardar Nueva Contraseña
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== MODAL 3: CREAR / EDITAR PRODUCTO ========== -->
+  <div class="admin-modal-backdrop" id="productEditorBackdrop"></div>
+  <div class="admin-modal admin-editor-modal" id="productEditorModal" role="dialog" aria-modal="true">
+    <div class="admin-modal-header">
+      <h3 id="productEditorTitle"><i class="fas fa-edit gold"></i> Agregar Producto</h3>
+      <button class="admin-modal-close" id="closeProductEditorBtn" aria-label="Cerrar">&times;</button>
+    </div>
+    <form id="productEditorForm" class="admin-editor-form">
+      <input type="hidden" id="editProductId" value="" />
+
+      <div class="admin-form-row">
+        <div class="admin-form-group">
+          <label for="editProductName">Nombre del Producto / Modelo *</label>
+          <input type="text" id="editProductName" placeholder="Ej: Caucho Sedán 195/65R15" required />
+        </div>
+        <div class="admin-form-group">
+          <label for="editProductCategory">Categoría *</label>
+          <select id="editProductCategory" required>
+            <option value="sedan">Sedán (Automóvil)</option>
+            <option value="suv">SUV / Camioneta</option>
+            <option value="deportivo">Deportivo / Alta Velocidad</option>
+            <option value="baterias">Baterías Duncan</option>
+            <option value="camion">Pesados / Camión</option>
+            <option value="otro">Otro</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="admin-form-row">
+        <div class="admin-form-group">
+          <label for="editProductBadge">Insignia / Etiqueta</label>
+          <select id="editProductBadge">
+            <option value="">Sin etiqueta</option>
+            <option value="Popular">Popular</option>
+            <option value="Oferta">Oferta</option>
+            <option value="Nuevo">Nuevo</option>
+            <option value="Duncan Oficial">Duncan Oficial</option>
+            <option value="Garantizado">Garantizado</option>
+          </select>
+        </div>
+        <div class="admin-form-group">
+          <label for="editProductFeature1">Característica 1</label>
+          <input type="text" id="editProductFeature1" placeholder="Ej: Pavimento Seco y Mojado" />
+        </div>
+      </div>
+
+      <div class="admin-form-row">
+        <div class="admin-form-group">
+          <label for="editProductFeature2">Característica 2</label>
+          <input type="text" id="editProductFeature2" placeholder="Ej: Alta Durabilidad" />
+        </div>
+        <div class="admin-form-group">
+          <label>Imagen del Producto</label>
+          <div class="image-upload-wrapper">
+            <input type="file" id="editProductFile" accept="image/*" />
+            <input type="text" id="editProductImageUrl" placeholder="O escribe la ruta (ej: images/product1.jpg)" />
+          </div>
+        </div>
+      </div>
+
+      <div class="admin-form-group">
+        <label>Vista previa de imagen:</label>
+        <div class="image-preview-box" id="imagePreviewBox">
+          <img id="imagePreviewImg" src="images/product1.jpg" alt="Vista previa" />
+        </div>
+      </div>
+
+      <div class="admin-form-group">
+        <label for="editProductDescription">Descripción breve *</label>
+        <textarea id="editProductDescription" rows="3" placeholder="Detalles de agarre, tracción, compatibilidad o garantía..." required></textarea>
+      </div>
+
+      <div class="admin-modal-actions">
+        <button type="button" class="btn btn-outline" id="cancelProductEditorBtn">Cancelar</button>
+        <button type="submit" class="btn btn-gold" id="saveProductBtn">
+          <i class="fas fa-save"></i> Guardar Producto
+        </button>
+      </div>
+    </form>
+  </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
